@@ -1,0 +1,73 @@
+body {
+	margin: 0px;
+	font-size: 16px;
+	font-family: 'Actor', sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+img {
+	height: 40px;
+	width: 40px;
+}
+.container {
+	height: 100vh;
+	overflow: hidden;
+}
+.header {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 18px;
+	
+}
+.toplinks {
+	text-decoration: none;
+	color: black;
+	
+}
+.links {
+	
+
+}
+.font700 {
+	font-weight: 700;
+}
+.nodecor {
+	text-decoration: none;
+	color: black;
+}
+.blacklinks {
+	color: black;
+}
+.maincontent {
+	
+}
+.maincontent a:hover {
+	color: gray;
+}
+.graytext {
+	color: #999999;
+}
+.inline {
+	display: inline;
+}
+#profilepic {
+	background-image: url(Profile.jpg);
+	background-size: cover;
+	flex: 2;
+	background-position: center;
+	height: 100%;
+	
+}
+#rightcontent {
+	
+	
+}
+#firstbutton {
+	background-color: #305B90;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 30px;
+	}

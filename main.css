@@ -1,0 +1,78 @@
+body {
+	margin: 0px;
+	font-size: 16px;
+	font-family: 'Actor', sans-serif;
+}
+ul {
+	list-style-type: none;
+}
+img {
+	height: 40px;
+	width: 40px;
+}
+.container {
+	height: 100vh;
+	overflow: hidden;
+}
+.header {
+	display: flex;
+	justify-content: flex-end;
+	font-size: 18px;
+	padding: 15px 20px 30px 20px;
+}
+.toplinks {
+	text-decoration: none;
+	color: black;
+	margin: 0px 28px 0px 0px;
+}
+.links {
+	justify-content: flex-start;
+	margin-right: auto;
+
+}
+.font700 {
+	font-weight: 700;
+}
+.nodecor {
+	text-decoration: none;
+	color: black;
+}
+.blacklinks {
+	color: black;
+}
+.maincontent {
+	display: flex;
+	height: 100vh;
+}
+.maincontent a:hover {
+	color: gray;
+}
+.graytext {
+	color: #999999;
+}
+.inline {
+	display: inline;
+}
+#profilepic {
+	background-image: url(Profile.jpg);
+	background-size: cover;
+	flex: 2;
+	background-position: center;
+	height: 100%;
+	
+}
+#rightcontent {
+	margin: 70px 60px 0px;
+	flex: 1;
+	align-content: center;
+	justify-content: center;
+	
+}
+#firstbutton {
+	background-color: #305B90;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 30px;
+}
