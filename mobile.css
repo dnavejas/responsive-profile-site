@@ -38,3 +38,18 @@ a
 #blue-background {
 	background-color: #305B90;
 }
+#profile-image {
+	border-radius: 170px;
+	position: relative;
+
+	height: 20vh;
+	width: 20vh;
+}
+#white-background{
+	background-color: white;
+	position: relative;
+	top: -50px;
+	z-index: 1;
+	text-align: center;
+	padding-top:100px; 
+}
