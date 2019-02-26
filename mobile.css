@@ -3,16 +3,8 @@
 	color: white;
 	position: relative;
 	top: -130px;
+	width: 100%;
 	}
-.blue-button {
-	background-color: #305B90;
-	border-radius: 5px;
-	color: white;
-	font-size: 18px;
-	text-align: center;
-	padding: 10px 30px;
-	margin: 45px 10px;
-}
 .general-content{
 	color: black;
 	padding: 10px;
@@ -32,4 +24,19 @@
 }
 .desktop-content{
 	display: none;
+}
+.bottom-bar{
+	display: flex;
+	background-color: rgba(255, 255, 255, .7);
+	position: absolute;
+	z-index: 1;
+	bottom: 0;
+	width: 100%;
+	display: inline-block;
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
+.inline {
+	display: inline;
 }
