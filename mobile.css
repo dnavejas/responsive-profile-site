@@ -7,77 +7,82 @@ img {
 	height: 40px;
 	width: 40px;
 }
+ul {
+	list-style-type: none;
+}
 .no-deco {
 	text-decoration: none;
 }
 .container {
 	height: 100vh;
 	overflow: hidden;
-	width: 100vw;
+	width: 100%;
 }
 .header {
 	display: flex;
-	font-size: 16px;
 	padding: 30px;
 }
-.top-links {
-	flex:2;
-}
-.align-right {
-	justify-content: flex-end;
-	display: flex;
-	flex: 1
-}
-.grey-links {
-	text-decoration: none;
-	color: grey;
-}
-.blue-button {
-	background-color: #305B90;
-	border-radius: 5px;
-	color: white;
-	font-size: 18px;
-	text-align: center;
-	padding: 10px 30px;
-	margin: 5px 10px;
-}
-.container-two {
-	justify-content: center;
-	height: 100vh;
-	width: 100vw;
-}
-#profile-image {
-	height: 45vh;
-	width: 100vw;
-	background-image: url(Profile.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-#white-background{
-	background-color: white;
-	margin: 10% 5%;
-	text-align: center;
-	padding-top:100px; 
-	width: 100%;
-	font-size: 18px;
-	height: 75vh;
-}
-#bottom-bar{
-	display: flex;
-	text-align: center;
-	background-color: rgba(255, 255, 255, .7);
-	position: absolute;
-	z-index: 1;
-	bottom: 0;
-	align-content: center;
-	width: 100vw;
-	height: 5vh;
-}
-#bottom-button {
-	border-radius: 5px;
-	background-color: #0773b4;
-	color: white; 
-	padding: 5px 20px;
-
+@media (min-device-width:0px) and (max-device-width: 815px){
+	.top-links {
+		flex:2;
+	}
+	.align-right {
+		justify-content: flex-end;
+		display: flex;
+		flex: 1
+	}
+	.grey-links {
+		text-decoration: none;
+		color: grey;
+	}
+	.main-content {
+		text-align: center;
+		color: white;
+		position: relative;
+		top: -130px;
+		}
+	.blue-button {
+		background-color: #305B90;
+		border-radius: 5px;
+		color: white;
+		font-size: 18px;
+		text-align: center;
+		padding: 10px 30px;
+		margin: 45px 10px;
+	}
+	.container-two {
+		justify-content: center;
+		height: 100vh;
+		width: 100%;
+	}
+	.general-content{
+		color: black;
+		padding: 10px;
+		text-align: left;
+	}
+	.work-content{
+		text-align: center;
+		color: black;
+	}
+	.grey-text{
+		color: #999;
+	}
+	#profile-image {
+		height: 45vh;
+		width: 100vw;
+		background-image: url(Profile.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center center;
+	}
+	#bottom-bar{
+		display: flex;
+		background-color: rgba(255, 255, 255, .7);
+		position: absolute;
+		z-index: 1;
+		bottom: 0;
+		align-content: center;
+		width: 100vw;
+		height: 5vh;
+	}
 }
