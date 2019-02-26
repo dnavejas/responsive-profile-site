@@ -1,88 +1,35 @@
-body {
-	margin: 0px;
-	font-size: 16px;
-	font-family: 'Actor', sans-serif;
+.main-content {
+	text-align: center;
+	color: white;
+	position: relative;
+	top: -130px;
+	}
+.blue-button {
+	background-color: #305B90;
+	border-radius: 5px;
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	padding: 10px 30px;
+	margin: 45px 10px;
 }
-img {
-	height: 40px;
-	width: 40px;
+.general-content{
+	color: black;
+	padding: 10px;
+	text-align: left;
 }
-ul {
-	list-style-type: none;
+.work-content{
+	text-align: center;
+	color: black;
 }
-.no-deco {
-	text-decoration: none;
+.profile-image {
+	height: 45vh;
+	width: 100vw;
+	background-image: url(Profile.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
-.container {
-	height: 100vh;
-	overflow: hidden;
-	width: 100%;
-}
-.header {
-	display: flex;
-	padding: 30px;
-}
-@media (min-device-width:0px) and (max-device-width: 815px){
-	.top-links {
-		flex:2;
-	}
-	.align-right {
-		justify-content: flex-end;
-		display: flex;
-		flex: 1
-	}
-	.grey-links {
-		text-decoration: none;
-		color: grey;
-	}
-	.main-content {
-		text-align: center;
-		color: white;
-		position: relative;
-		top: -130px;
-		}
-	.blue-button {
-		background-color: #305B90;
-		border-radius: 5px;
-		color: white;
-		font-size: 18px;
-		text-align: center;
-		padding: 10px 30px;
-		margin: 45px 10px;
-	}
-	.container-two {
-		justify-content: center;
-		height: 100vh;
-		width: 100%;
-	}
-	.general-content{
-		color: black;
-		padding: 10px;
-		text-align: left;
-	}
-	.work-content{
-		text-align: center;
-		color: black;
-	}
-	.grey-text{
-		color: #999;
-	}
-	#profile-image {
-		height: 45vh;
-		width: 100vw;
-		background-image: url(Profile.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: center center;
-	}
-	#bottom-bar{
-		display: flex;
-		background-color: rgba(255, 255, 255, .7);
-		position: absolute;
-		z-index: 1;
-		bottom: 0;
-		align-content: center;
-		width: 100vw;
-		height: 5vh;
-	}
+.desktop-content{
+	display: none;
 }

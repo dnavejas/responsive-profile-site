@@ -4,34 +4,29 @@
 		<title></title>
 		<meta name="viewport" content="width=max-device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-		<link rel="stylesheet" href="mobile.css">
+		<link rel="stylesheet" type="text/css" href="main.css">
+		<link rel="stylesheet" media="screen and (min-device-width:0px) and (max-device-width: 800px)" href="mobile.css">
+		<link rel="stylesheet" media="screen and (min-device-width:800px) and (max-device-width: 1650px)" href="desktop.css">
 	</head>
 	<body class="container">
 		<div class="header">
-			<div class="top-links">
-				<i class="fas fa-ellipsis-v"></i>
+			<div class="about-link">
+				<i class="fas fa-ellipsis-v mobile-content font700"></i>
 				about.me
 			</div>
 			<div class="align-right" >
-				<a href="http://about.me/welcome" class="grey-links no-deco">
-					<div>
-						Get your page
-					</div>
-				</a>
-			</div>
-			<div class="align-right">
-				<a href="http://about.me/login" class="grey-links">
-					<div>
-						Log in
-					</div>
-				</a>
+				<a href="http://about.me/welcome" class="toplinks no-deco mobile-content">Get your page</a>
+				<a href="http://about.me/welcome" class="toplinks no-deco desktop-content">Get started for free</a>
+				<a href="https://www.aboute.me/features" class="toplinks desktop-content">Features</a>
+				<a href="https://www.aboute.me/pricing" class="toplinks desktop-content">Pricing</a>
+				<a href="http://about.me/login" class="top-links">Log in</a>
 			</div>
 		</div>
 		<div class="container-two"> 
-			<div id="profile-image"></div>
+			<div class="profile-image"></div>
 			<div class="main-content">
 				<h2>DANNY NAVEJAS</h2>
-				<h3>Sales Representative, Student, and Father in Elgin, Texas </h3>
+				<h3>Sales Representative, Student at Inventive Academy, Web-developer in training, and Father in Elgin, Texas </h3>
 				<a href="http://www.linkedin.com/in/dannynavejas">
 					<div class="blue-button">
 						<i class="fas fa-bars" style="margin: 0 5px;"></i>Hire me
@@ -49,23 +44,29 @@
 					<li>Inventive Academy</li>
 				</ul>
 				<div>
-					<a href="http://www.linkedin.com/in/dannynavejas">
-						<img src="linkedin.png" class="social-icons" />
+					<a href="http:twitter.com">
+						<img src="twitter.png">
 					</a>
-					<a href="http://stackexchange.com/users/15220072/danny-navejas">
-						<img src="stack.png">
+					<a href="http://www.facebook.com">
+						<img src="facebook.png" class="icon">
+					</a>
+					<a href="http://www.linkedin.com/in/dannynavejas">
+						<img src="linkedin.png" class="icons" />
 					</a>
 					<a href="http://github.com/dnavejas">
-						<img src="github.png">
+						<img src="github.png" class="icons">
 					</a>
 				</div>
 			</div>
 		</div>
-		<div id="bottom-bar">
-			<a href="http://about.me/welcome">
-				<div class="blue-button">
+		<div class="bottom-bar">
+			<a href="http://about.me/welcome" class="blue-button">
+				<span class="mobile-content">
 					Get your page
-				</div>
+				</span>
+				<span class="desktop-content">
+					Get started for free
+				</span>
 			</a>
 		</div>
 	</body>
